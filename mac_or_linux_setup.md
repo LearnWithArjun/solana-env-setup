@@ -1,3 +1,7 @@
+Note: This guide comes courtesy of [Buildspace](https://buildspace.so). Do check them out if you get the chance.
+
+## 🍎 Setting up Solana on an Intel macOS or Linux Machine.
+
 This guide will get you up and running with the Solana enviroment on your local machine. We made modifications that will get you to becoming a Solana Master faster with less headaches 🙂.
 
 Let's kick it off!
