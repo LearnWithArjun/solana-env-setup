@@ -142,8 +142,6 @@ cd myepicproject
 
 `anchor init` will create a bunch of files/folders for us. It's sort of like `create-react-app` in a way. We'll check out all the stuff it's created in moment.
 
-If you are running the project locally and don't have yarn installed anchor init will fail. To solve this you can install yarn by running npm install --global yarn.
-
 ### 🔑 Create a local keypair.
 
 Next thing we need to do is actually generate a local Solana wallet to work with. Don't worry about creating a passphrase for now, just tap "Enter" when it asks.
