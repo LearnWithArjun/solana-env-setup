@@ -1,3 +1,5 @@
+Note: This guide comes courtesy of [Buildspace](https://buildspace.so). Do check them out if you get the chance.
+
 ## 🪟 Setting up Solana on a Windows machine.
 **First off - I want to give a HUGE shoutout to our TA, Raza! Without Raza, this guide wouldn't have been doable. Once you finish this section make sure to give some love to Raza in Discord (TooManyBags#3359)**
 
