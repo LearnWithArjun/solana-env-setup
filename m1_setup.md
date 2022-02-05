@@ -2,8 +2,6 @@ Note: This guide comes courtesy of [Buildspace](https://buildspace.so). Do check
 
 ## 🍎 Setting up Solana on a M1 macOS Machine.
 
-**First off - I want to give a HUGE shoutout to our TA, Nick! Without Nick, this guide wouldn't have been doable. Once you finish this section make sure to give some love to Nick in Discord (Nick_G#4818)**
-
 We are going to go **from this doesn't work on M1 masOS??** to
 
 ![ankin it's working Gif](https://media.giphy.com/media/CuMiNoTRz2bYc/giphy.gif)
