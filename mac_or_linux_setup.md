@@ -176,7 +176,7 @@ Anchor is awesome. It lets us do this all in one step by running:
 anchor test
 ```
 
-This may take a while the first time you run it! As long as you get the green words at the bottom that say "1 passing" you're good to go!! Keep us posted in the Discord if you run into issues here.
+This may take a while the first time you run it! As long as you get the green words at the bottom that say "1 passing" you're good to go!!
 
 **Note: If you receive the message node: --dns-result-order= is not allowed in NODE_OPTIONS this mean you are on an older version of Node and technically, this didn't pass! Since I tested this all with Node v16.13.0 I would highly suggest you just upgrade to this version. Upgrading node is a pain, learn more here. I like using nvm.**
 
