@@ -1,7 +1,6 @@
 Note: This guide comes courtesy of [Buildspace](https://buildspace.so). Do check them out if you get the chance.
 
 ## 🪟 Setting up Solana on a Windows machine.
-**First off - I want to give a HUGE shoutout to our TA, Raza! Without Raza, this guide wouldn't have been doable. Once you finish this section make sure to give some love to Raza in Discord (TooManyBags#3359)**
 
 This resource will take you through the flow of setting up the Solana environment on your local, Windows machine. The big gotchya here is **Windows isn't really supported by Anchor at the moment.** This means we need to use a platform that *is* supported.
 Windows allows for you to boot up a Linux environment for scenarios just like this! There will be a few extra steps to get this all sorted before we actually get started with setting up all the Solana dependencies. 
@@ -44,7 +43,7 @@ For this you will need to enter the BIOS of your machine. Not all computers can 
 As your computer restarts hit the "DEL" and "F2" key. One of these keys is usually the way to enter your computer's BIOS. At this point you will want to continue to the "Advanced Options" section. Again, this may be named differently, but it should be something similar to more options. 
 From here you will want to head to a CPU section or Virtualization section and make sure it says "Enabled".
 
-These two steps should get you on your way now! If they don't make sure to reach out in your section chat on Discord with whatever error you are running into.
+These two steps should get you on your way now! 
 
 Now that we have Ubuntu Terminal ready to go - we can start installing Node.js 😎. We are actually going to be using something called [nvm](https://github.com/nvm-sh/nvm). It will make it insanely easy to install and change versions of Node!
 
@@ -163,7 +162,7 @@ That's it! We are going to be using this later on :).
 
 We're going to be using this tool called "Anchor" a lot. If you know about Hardhat from the world of Ethereum, it's sorta like that! Except — it's built for Solana. **Basically, it makes it really easy for us to run Solana programs locally and deploy them to the actual Solana chain when we're ready!**
 
-Anchor is a *really early projec*t run by a few core devs. You're bound to run into a few issues. Be sure to join the [Anchor Discord](https://discord.gg/8HwmBtt2ss) and feel free to ask questions or [create an issue](https://github.com/project-serum/anchor/issues) on their Github as you run into issues. The devs are awesome. Maybe even say you're from buildspace in #general on their Discord :).
+Anchor is a *really early projec*t run by a few core devs. You're bound to run into a few issues. Be sure to join the [Anchor Discord](https://discord.gg/8HwmBtt2ss) and feel free to ask questions or [create an issue](https://github.com/project-serum/anchor/issues) on their Github as you run into issues. The devs are awesome. 
 
 **BTW — don't just join their Discord and ask random questions expecting people to help. Try hard yourself to search the their Discord to see if anyone else has had the same question you have. Give as much info about your questions as possible. Make people want to help you lol.**
 
@@ -241,20 +240,10 @@ Anchor is awesome. It lets us do this all in one step by running:
 anchor test
 ```
 
-This may take a while the first time you run it! As long as you get the green words the bottom that say "1 passing" you're good to go!! Keep us posted in the Discord if you run into issues here.
+This may take a while the first time you run it! As long as you get the green words the bottom that say "1 passing" you're good to go!!
 
 ![Untitled](https://i.imgur.com/V35KchA.png)
 
 **Note: If you receive the message `node: --dns-result-order= is not allowed in NODE_OPTIONS` this mean you are on an older version of Node and technically, this didn't pass! Since I tested this all with Node v16.13.0 I would highly suggest you just upgrade to this version.**
 
 **Congrats you've successfully set up your Solana environment :).** It's been quite the journey, but, we made it fam.
-
-### 🚨 Progress Report
-
-*Please do this else Farza will be sad :(*
-
-That was all pretty tough!!! Definitely one of the more difficult installations.
-
-Post a screenshot of your test working in `#progress` so people know you made it :).
-
-Now go ahead and get back to your [buildspace Dashboard](https://app.buildspace.so/courses/CObd6d35ce-3394-4bd8-977e-cbee82ae07a3) to continue on!
