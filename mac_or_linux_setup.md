@@ -34,7 +34,7 @@ cargo --version
 
 As long as all those commands output a version and didn't error, you're good to go!
 
-### 🔥Install Solana - THIS IS WHAT WE CAME FOR!
+### 🔥 Install Solana - THIS IS WHAT WE CAME FOR!
 
 We are to download with this command:
 
