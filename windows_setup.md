@@ -228,9 +228,10 @@ solana address
 
 When we did `anchor init` it create a basic Solana program for us. What we want to do now is:
 
-1. Compile our program.
-2. Spin up `solana-test-validator` and deploy the program to our **local** Solana network w/ our wallet. This is kinda like deploying our local server w/ new code.
-3. Actually call functions on our deployed program. This is kinda like hitting a specific route on our server to test that it's working.
+1. Run **anchor build** which will compile our program.
+2. Spin up `solana-test-validator` and deploy the program to our **local** Solana network w/ our wallet. This is kinda like deploying our local server w/ new code. Open up a separate terminal and take it to root by using **cd ~** command. Unless it may fail, you will get lock in the eternal rotating circle.
+3. Run **anchor deploy**, to deploy the program.
+4. Actually call functions on our deployed program. This is kinda like hitting a specific route on our server to test that it's working.
 
 Anchor is awesome. It lets us do this all in one step by running:
 
