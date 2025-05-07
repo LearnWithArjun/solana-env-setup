@@ -137,6 +137,7 @@ This means that Solana is set up to talk to our local network! When developing p
 The last thing to test is we want to make sure we can get a **local Solana node running**. Basically, remember how we said that the Solana chain is run by "validators"? Well — we can actually set up a validator on our computer to test our programs with.
 
 ```bash
+cd ~ # fix run on WSL
 solana-test-validator
 ```
 
